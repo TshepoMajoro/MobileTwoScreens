@@ -4,53 +4,84 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* min-height: 100vh; */
+        min-height: 100vh;
     }
 
-    /* main{
+    main{
         flex-grow: 1;
-    } */
+    }
 
     input{
         text-align: center;
         margin-top: 1vh;
         margin-bottom: 1vh;
-        width: 50vw;
-        height: 5vw;
+        width: 80vw;
+        height: 10vw;
         border-radius: 5vw;
 
         &:hover{
-            border: 2px solid darkgreen;
+            border: 2px solid rgb(150, 235, 150);
         }
     }
 
     textarea{
         text-align: center;
-        width: 50vw;
-        height: 20vw;
+        width: 80vw;
+        height: 30vw;
         margin-bottom: 1.5vh;
+        border-radius: 5vw;
 
         &:hover{
-            border: 2px solid darkgreen;
+            border: 2px solid rgb(150, 235, 150);
         }
     }
 
     .Btns{
-        width: 50vw;
+        width: 80vw;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 5vw;
 
         & button{
-            width: 20vw;
-            background-color: darkgreen;
-            color: white;
+            width: 30vw;
+            background-color: rgb(150, 235, 150);
+            color: black;
             border-radius: 2vw;
             margin: 0px;
+            padding-top: 1vw;
+            padding-bottom: 1vw;
+            border: none;
 
             &:hover{
                 cursor: pointer;
             }
         }
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80vw;
+        background-color: rgb(150, 235, 150);
+        border-radius: 5vw;
+        position: sticky;
+        bottom: 2vh;
+        z-index: 1;
+
+        & img{
+            width: 7vw;
+            height: 7vw;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+        }
+    }
+
+    hr{
+        width: 80vw;
+        color: rgb(150, 235, 150);
+        margin-bottom: 5vw;
+        margin-top: 5vw;
     }
 }
