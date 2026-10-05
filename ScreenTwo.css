@@ -1,4 +1,4 @@
-@media (max-width:425px){
+@media (max-width:412px){
     body, main, form{
         display: flex;
         flex-direction: column;
@@ -87,7 +87,7 @@
             display: none;
             position: absolute;
             bottom: 12vw;
-            left: 56.5vw;
+            left: 55vw;
             margin-top: 5vw;
             
             & a:hover{
