@@ -1,0 +1,56 @@
+@media (max-width:425px){
+    body, main, form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* min-height: 100vh; */
+    }
+
+    /* main{
+        flex-grow: 1;
+    } */
+
+    input{
+        text-align: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        width: 50vw;
+        height: 5vw;
+        border-radius: 5vw;
+
+        &:hover{
+            border: 2px solid darkgreen;
+        }
+    }
+
+    textarea{
+        text-align: center;
+        width: 50vw;
+        height: 20vw;
+        margin-bottom: 1.5vh;
+
+        &:hover{
+            border: 2px solid darkgreen;
+        }
+    }
+
+    .Btns{
+        width: 50vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & button{
+            width: 20vw;
+            background-color: darkgreen;
+            color: white;
+            border-radius: 2vw;
+            margin: 0px;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
