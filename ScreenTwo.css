@@ -4,6 +4,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    body{
         min-height: 100vh;
     }
 
@@ -42,6 +45,7 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 5vw;
+        margin-top: 5vw;
 
         & button{
             width: 30vw;
@@ -60,6 +64,7 @@
     }
 
     .menu{
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -75,6 +80,46 @@
             height: 7vw;
             margin-top: 2vw;
             margin-bottom: 2vw;
+        }
+
+        
+        & .dropdown{
+            display: none;
+            position: absolute;
+            bottom: 12vw;
+            left: 56.5vw;
+            margin-top: 5vw;
+            
+            & a:hover{
+                background-color: white;
+            }
+        }
+
+        & .menuIcon:hover{
+            & .dropdown{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(150, 235, 150);
+                border-radius: 2vw;
+
+                & a{
+                    /* display: none; */
+                    text-decoration: none;
+                    color: black;
+                    font-size: 1rem;
+                    padding: 1vw;
+                    width: 20vw;
+                    height: 5vw;
+                    border-radius: 2vw;
+                    text-align: center;
+
+                    &:hover{
+                        color: rgb(150, 235, 150);
+                    }
+                }
+            }
         }
     }
 

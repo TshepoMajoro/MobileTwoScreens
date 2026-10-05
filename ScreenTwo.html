@@ -1,28 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Page</title>
-    <link rel="stylesheet" href="./ScreenTwo.css" type="text/css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="./ScreenTwo.css" type="text/css" />
+  </head>
+  <body>
     <main>
-        <form>
-            <h2>Contact Us</h2>
-            <hr>
-            <label for="username">Username:</label>
-            <input type="text" placeholder="Jane_Doe" id="username" name="username"/>
-            <label for="email">Email:</label>
-            <input type="email" placeholder="janeD@gmail.com" id="email" name="email"/>
-            <label for="comment">Comments:</label>
-            <textarea placeholder="Type your comment/s here"></textarea>
-            <div class="Btns">
-                <button>Cancel</button>
-                <button>Submit</button>
-            </div>
-        </form>
-        <!-- <nav class="menu">
+      <form>
+        <h2>Contact Us</h2>
+        <hr />
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          placeholder="Jane_Doe"
+          id="username"
+          name="username"
+        />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          placeholder="janeD@gmail.com"
+          id="email"
+          name="email"
+        />
+        <label for="comment">Comments:</label>
+        <textarea placeholder="Type your comment/s here"></textarea>
+        <div class="Btns">
+          <button>Cancel</button>
+          <button>Submit</button>
+        </div>
+      </form>
+      <!-- <nav class="menu">
             <a href="./ScreenOne.html">
                 <img src="./Icons/home.svg" alt="home icon"/>
             </a>
@@ -36,16 +46,22 @@
         </nav> -->
     </main>
     <nav class="menu">
-            <a href="./ScreenOne.html">
-                <img src="./Icons/home.svg" alt="home icon"/>
-            </a>
-            <a href="./ScreenOne.html">
-                <img src="./Icons/caret-back.svg" alt="caret back icon"/>
-            </a>
-            <a href="./ScreenTwo.html">
-                <img src="./Icons/caret-forward.svg" alt="caret forward icon"/>
-            </a>
-            <img src="./Icons/menu.svg" alt="menu icon"/>
-        </nav>
-</body>
+      <a href="./ScreenOne.html">
+        <img src="./Icons/home.svg" alt="home icon" />
+      </a>
+      <a href="./ScreenOne.html">
+        <img src="./Icons/caret-back.svg" alt="caret back icon" />
+      </a>
+      <a href="./ScreenTwo.html">
+        <img src="./Icons/caret-forward.svg" alt="caret forward icon" />
+      </a>
+      <div class="menuIcon">
+        <img src="./Icons/menu.svg" alt="menu icon" />
+        <div class="dropdown">
+          <a href="./ScreenOne.html">Home</a>
+          <a href="./ScreenTwo.html">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>
